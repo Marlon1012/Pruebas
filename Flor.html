@@ -1,0 +1,74 @@
+<html><head><title>PineTools.com - Salida</title><style>body{margin:0;} 
+		/* Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/ */
+
+		.hljs { display: block; overflow-x: auto; padding: 0.5em; background: #23241f; margin: 0; /* firefox, download/view-in-new-window */ }
+		.hljs, .hljs-tag, .hljs-subst { color: #f8f8f2; }
+		.hljs-strong, .hljs-emphasis { color: #a8a8a2; }
+		.hljs-bullet, .hljs-quote, .hljs-number, .hljs-regexp, .hljs-literal, .hljs-link { color: #ae81ff; }
+		.hljs-code, .hljs-title, .hljs-section, .hljs-selector-class { color: #a6e22e; }
+		.hljs-strong { font-weight: bold; }
+		.hljs-emphasis { font-style: italic; }
+		.hljs-keyword, .hljs-selector-tag, .hljs-name, .hljs-attr { color: #f92672; }
+		.hljs-symbol, .hljs-attribute { color: #66d9ef; }
+		.hljs-params, .hljs-class .hljs-title { color: #f8f8f2; }
+		.hljs-string, .hljs-type, .hljs-built_in, .hljs-builtin-name, .hljs-selector-id, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-addition, .hljs-variable, .hljs-template-variable { color: #e6db74; }
+		.hljs-comment, .hljs-deletion, .hljs-meta { color: #75715e; }
+		/* added by me: */ .hljs{ width: 2000px; font-family: "Courier New", Courier, monospace; }
+	</style></head><body><pre class="hljs"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"es"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"viewport"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"width=device-width, initial-scale=1.0"</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Flor para Érica<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+		<span class="hljs-selector-tag">body</span> {
+		            <span class="hljs-attribute">font-family</span>: Arial, sans-serif;
+		            <span class="hljs-attribute">text-align</span>: center;
+		        }
+		        <span class="hljs-selector-class">.flower</span> {
+		            <span class="hljs-attribute">width</span>: <span class="hljs-number">100px</span>;
+		            <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;
+		            <span class="hljs-attribute">background-color</span>: yellow;
+		            <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">50%</span>;
+		            <span class="hljs-attribute">position</span>: relative;
+		            <span class="hljs-attribute">margin</span>: <span class="hljs-number">20px</span> auto;
+		        }
+		        <span class="hljs-selector-class">.petal</span> {
+		            <span class="hljs-attribute">width</span>: <span class="hljs-number">20px</span>;
+		            <span class="hljs-attribute">height</span>: <span class="hljs-number">50px</span>;
+		            <span class="hljs-attribute">background-color</span>: yellow;
+		            <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">50%</span>;
+		            <span class="hljs-attribute">position</span>: absolute;
+		            <span class="hljs-attribute">top</span>: <span class="hljs-number">0</span>;
+		            <span class="hljs-attribute">left</span>: <span class="hljs-number">50%</span>;
+		            <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translateX</span>(-50%);
+		        }
+		        <span class="hljs-selector-class">.petal</span><span class="hljs-selector-pseudo">:before</span>,
+		        <span class="hljs-selector-class">.petal</span><span class="hljs-selector-pseudo">:after</span> {
+		            <span class="hljs-attribute">content</span>: <span class="hljs-string">''</span>;
+		            <span class="hljs-attribute">width</span>: <span class="hljs-number">20px</span>;
+		            <span class="hljs-attribute">height</span>: <span class="hljs-number">50px</span>;
+		            <span class="hljs-attribute">background-color</span>: yellow;
+		            <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">50%</span>;
+		            <span class="hljs-attribute">position</span>: absolute;
+		            <span class="hljs-attribute">top</span>: <span class="hljs-number">0</span>;
+		        }
+		        <span class="hljs-selector-class">.petal</span><span class="hljs-selector-pseudo">:before</span> {
+		            <span class="hljs-attribute">left</span>: -<span class="hljs-number">20px</span>;
+		            <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotate</span>(45deg);
+		        }
+		        <span class="hljs-selector-class">.petal</span><span class="hljs-selector-pseudo">:after</span> {
+		            <span class="hljs-attribute">right</span>: -<span class="hljs-number">20px</span>;
+		            <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">rotate</span>(-45deg);
+		        }
+		
+	</span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flower"</span>&gt;</span>
+		<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"petal"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+	<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Me encantas mucho, Érika<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+	<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Eres especial para mí en cada momento. Te quiero más de lo que imaginas.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></pre></body></html>
